@@ -2,7 +2,6 @@ import './styles.css';
 
 
 const date = document.querySelector('.date');
-const day = document.querySelector('.day');
 const price = document.querySelector('.price')
 // DolarToday API
 
