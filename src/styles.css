@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: -20vh;
+    margin-top: -15vh;
     width: fit-content;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
@@ -39,9 +39,45 @@ body {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.9);
 }
+select {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fiat-div {
+    display: flex;
+    align-items: center;
+}
+select h1{
+    margin: 0;
+    
+    padding: 3px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 h6 {
     margin-bottom: 10px;
 }
 .dolartoday {
     color: #85bb65;
+}
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 3.5vw;
+    }
+    #usd button, #eur button {
+        font-size: 3.5vw;
+    }
+    .container {
+        padding: 10px 20px 10px 20px;
+    }
+    select {
+        font-size: 6vw;
+    }
 }
